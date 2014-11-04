@@ -21,7 +21,7 @@ public class UniversalDatatype {
         System.out.println("Test2 using changeTypeAuto");
         miscDatatype Test2 = new miscDatatype();
         Test2.changeType("boolean");
-        System.out.println("Testing printType using Test3");
+        System.out.println("Testing printType using Test1(fixed Github)");
         Test1.printType();
     }
     
