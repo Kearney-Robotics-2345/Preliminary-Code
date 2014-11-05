@@ -10,6 +10,8 @@ package universaldatatype;
  * @author Anthony
  */
 public class UniversalDatatype {
+    public static boolean boolTest1 = true;
+    public static String stringTest1 = "potato";
 
     /**
      * @param args the command line arguments

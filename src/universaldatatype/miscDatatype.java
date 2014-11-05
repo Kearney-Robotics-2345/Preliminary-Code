@@ -12,6 +12,7 @@ import java.util.Scanner;
  * @author Anthony
  */
 public class miscDatatype {
+   
     String datatype = "unassigned";
     String newDatatype = "unassigned";
     String oldDatatype = "unassigned";
@@ -19,6 +20,17 @@ public class miscDatatype {
     public boolean miscDatatype(String datatype) {
         boolean createdSuccess = true;
         return createdSuccess;
+    }
+    public void setValue() {
+        //Sets value of variable by changing value of byte array
+        switch (this.datatype) {
+            case "boolean":
+                local boolean valueCarrier = UniversalDatatype.boolTest1;
+                break;
+            case "String":
+                String valueCarrier = UniversalDatatype.stringTest1;
+                break;
+        }
     }
     public void changeType() {
         //Stores value of datatype in oldDatatype for future reference
